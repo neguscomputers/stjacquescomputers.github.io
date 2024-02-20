@@ -72,6 +72,10 @@ body {
     width: 500px; /* Adjust width as needed */
     height: auto; /* Maintains aspect ratio */
   }
+.logo {
+  max-width: 100%;
+  height: auto;
+}
 /* Adjustments for iPhone */
 @media only screen and (max-width: 768px) {
   /* Your CSS adjustments here */
