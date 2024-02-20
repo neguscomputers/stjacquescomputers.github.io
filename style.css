@@ -76,3 +76,11 @@ body {
 @media only screen and (max-width: 768px) {
   /* Your CSS adjustments here */
 }
+
+/* Adjustments for iPhone */
+@media only screen and (max-width: 768px) {
+  .logo {
+    /* Adjust dimensions as needed */
+    max-width: 80%;
+  }
+}
