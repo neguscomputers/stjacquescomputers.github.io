@@ -85,6 +85,6 @@ body {
 @media only screen and (max-width: 768px) {
   .logo {
     /* Adjust dimensions as needed */
-    max-width: 80%;
+    max-width: 50%;
   }
 }
