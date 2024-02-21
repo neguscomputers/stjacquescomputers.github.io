@@ -90,4 +90,17 @@ body {
 }
 section {
       text-align: center;
+/* CSS for image */
+.profile-pic {
+  width: 200px; /* Default width */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 50%; /* Optional: Apply rounded corners */
+}
+
+/* CSS for smaller screens (phones) */
+@media only screen and (max-width: 600px) {
+  .profile-pic {
+    width: 150px; /* Adjust width for smaller screens */
+  }
+}
 
