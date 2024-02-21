@@ -77,15 +77,10 @@ body {
   height: auto;
 }
 /* Adjustments for iPhone */
-@media only screen and (max-width: 768px) {
-  /* Your CSS adjustments here */
-}
-
-/* Adjustments for iPhone */
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 150px) {
   .logo {
     /* Adjust dimensions as needed */
-    max-width: auto;
+    max-width: 150px;
   }
 }
 section {
