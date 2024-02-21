@@ -80,7 +80,10 @@ body {
 @media only screen and (max-width: 150px) {
   .logo {
     /* Adjust dimensions as needed */
-    max-width: 150px;
+     display: block;
+    margin: 0 auto; /* Centers the logo horizontally */
+    width: 150px; /* Adjust width as needed */
+    height: auto; /* Maintains aspect ratio
   }
 }
 section {
