@@ -98,9 +98,9 @@ section {
 /* CSS for smaller screens (phones) */
 @media only screen and (max-width: 700px) {
   .profile-pic {
-    width: 600px; /* Adjust width for smaller screens */
-    height: 600px;
-    border-radius: 50%;
-  }
+    max-width: 100%;
+    min-width: 300px;
+    height: auto;
+}
 }
 
