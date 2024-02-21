@@ -83,11 +83,7 @@ body {
     width: auto; /* Adjust width as needed */
     height: auto; /* Maintains aspect ratio
   }
-  .profile-pic {
-    max-width: 100%;
-    min-width: 300px;
-    height: auto;
-}    
+     
 }
 section {
       text-align: center;
@@ -102,6 +98,11 @@ section {
 
 /* CSS for smaller screens (phones) */
 @media only screen and (max-width: 700px) {
+    .profile-pic {
+    max-width: 100%;
+    min-width: 300px;
+    height: auto;
+} 
   
 }
 
