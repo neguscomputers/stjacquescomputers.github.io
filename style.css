@@ -79,10 +79,8 @@ body {
 /* Adjustments for iPhone */
 @media only screen and (max-width: 150px) {
   .logo {
-    /* Adjust dimensions as needed */
-     display: block;
-    margin: 0 auto; /* Centers the logo horizontally */
-    width: 700px; /* Adjust width as needed */
+   
+    width: auto; /* Adjust width as needed */
     height: auto; /* Maintains aspect ratio
   }
 }
