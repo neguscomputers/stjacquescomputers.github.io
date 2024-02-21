@@ -91,16 +91,16 @@ section {
 
 /* CSS for image */
 .profile-pic {
-  width: 150px; /* Default width */
-  height: ; /* Maintain aspect ratio */
+  width: 600px; /* Default width */
+  height: 600px ; /* Maintain aspect ratio */
   border-radius: 50%; /* Optional: Apply rounded corners */
 }
 
 /* CSS for smaller screens (phones) */
 @media only screen and (max-width: 700px) {
     .profile-pic {
-    max-width: 100%;
-    min-width: 300px;
+    max-width: 600px;
+    min-width: 600px;
     height: auto;
 } 
   
