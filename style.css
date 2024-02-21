@@ -94,8 +94,8 @@ section {
 
 /* CSS for image */
 .profile-pic {
-  width: 200px; /* Default width */
-  height: 400px; /* Maintain aspect ratio */
+  width: 150px; /* Default width */
+  height: ; /* Maintain aspect ratio */
   border-radius: 50%; /* Optional: Apply rounded corners */
 }
 
@@ -103,6 +103,8 @@ section {
 @media only screen and (max-width: 200px) {
   .profile-pic {
     width: 150px; /* Adjust width for smaller screens */
+    height: auto;
+    border-radius: 50%;
   }
 }
 
