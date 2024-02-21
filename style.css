@@ -96,10 +96,10 @@ section {
 }
 
 /* CSS for smaller screens (phones) */
-@media only screen and (max-width: 200px) {
+@media only screen and (max-width: 700px) {
   .profile-pic {
-    width: 150px; /* Adjust width for smaller screens */
-    height: auto;
+    width: 600px; /* Adjust width for smaller screens */
+    height: 600px;
     border-radius: 50%;
   }
 }
