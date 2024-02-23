@@ -70,7 +70,9 @@ body {
     display: block;
     margin: 0 auto; /* Centers the logo horizontally */
     width: 500px; /* Adjust width as needed */
-    height: auto; /* Maintains aspect ratio */
+    height: auto;
+    justify-content: center; /* Horizontally center the content within the container */
+    align-items: center;/* Maintains aspect ratio */
   }
 .logo {
   max-width: 100%;
