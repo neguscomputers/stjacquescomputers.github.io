@@ -77,6 +77,10 @@ body {
 .logo {
   max-width: 100%;
   height: auto;
+  position: absolute; /* Liberates the image from the constraints of normal flow */
+  top: 50%; /* Positions the top of the image at the vertical center of the container */
+  left: 50%; /* Positions the left side of the image at the horizontal center of the container */
+  transform: translate(-50%, -50%);
 }
 /* Adjustments for iPhone */
 @media only screen and (max-width: 700px) {
@@ -105,6 +109,5 @@ section {
     min-width: 600px;
     height: auto;
 } 
-  
 }
 
