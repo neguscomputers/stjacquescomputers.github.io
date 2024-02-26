@@ -2,112 +2,62 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-  }
-  
-  header {
+}
+
+header, nav {
     background-color: #F90000;
     color: #FAEB00;
     text-align: center;
     padding: 50px 0;
-  }
-  
-  nav {
-    background-color: #F90000;
-    text-align: center;
-  }
-  
-  nav ul {
+}
+
+nav ul, footer ul {
     list-style-type: none;
     padding: 0;
-  }
-  
-  nav ul li {
+}
+
+nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
-  }
-  
-  nav ul li a {
+}
+
+nav ul li a, footer ul li a {
     color: #F7EA20;
     text-decoration: none;
-  }
-  
-  main {
+}
+
+main {
     padding: 50px;
-  }
-  
-  section {
+}
+
+section {
     margin-bottom: 50px;
-  }
-  
-  h2 {
-    color: #000;
-  }
-  
-  footer {
-    background-color: #000;
-    color: #fff;
     text-align: center;
-    padding: 20px 0;
-  }
-  
-  footer ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  footer ul li {
-    display: inline;
-    margin-right: 20px;
-  }
-  
-  footer ul li a {
-    color: #fff;
-    text-decoration: none;
-  }
-  
-  /* Logo styling */
+}
+
+/* Logo styling */
 #logo {
     display: block;
-    margin: 0 auto; /* Centers the logo horizontally */
-    width: 500px; /* Adjust width as needed */
+    margin: 0 auto;
+    width: 500px;
     height: auto;
-    justify-content: center; /* Horizontally center the content within the container */
-    align-items: center;/* Maintains aspect ratio */
-  }
-.logo {
-  max-width: 100%;
-  height: auto;
-  position: absolute; /* Liberates the image from the constraints of normal flow */
-  top: 50%; /* Positions the top of the image at the vertical center of the container */
-  left: 50%; /* Positions the left side of the image at the horizontal center of the container */
-  transform: translate(-50%, -50%);
-}
-/* Adjustments for iPhone */
-@media only screen and (max-width: 700px) {
-  .logo {
-   
-    width: auto; /* Adjust width as needed */
-    height: auto; /* Maintains aspect ratio
-  }
-     
-}
-section {
-      text-align: center;
 }
 
-/* CSS for image */
 .profile-pic {
-  width: 600px; /* Default width */
-  height: 600px ; /* Maintain aspect ratio */
-  border-radius: 50%; /* Optional: Apply rounded corners */
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
 }
 
-/* CSS for smaller screens (phones) */
+/* Media Queries */
 @media only screen and (max-width: 700px) {
+    #logo, .logo {
+        width: auto;
+        height: auto;
+    }
+    
     .profile-pic {
-    max-width: 600px;
-    min-width: 600px;
-    height: auto;
-} 
+        max-width: 100%;
+        height: auto;
+    }
 }
-
