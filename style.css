@@ -64,5 +64,6 @@ section {
 
 hr {
     height: 3px;
-    backgroundcolor: black;
+    background-color: black;
+    border-color: black;
 }
