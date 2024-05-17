@@ -67,3 +67,8 @@ hr {
     background-color: black;
     border-color: black;
 }
+
+hr1 {
+    margin: auto;
+    padding: auto;
+}
