@@ -37,10 +37,15 @@ section {
 
 /* Logo styling */
 #logo {
-    display: block;
+    display: flex;
     margin: 0 auto;
-    width: max(100px, 18vw)
+    width: max(100px, 18vw);
     height: auto;
+    max-width: 1400px;
+    align-item: center;
+    flex-wrap: wrap;
+    
+    
 }
 
 .profile-pic {
