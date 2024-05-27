@@ -39,7 +39,7 @@ section {
 #logo {
     display: flex;
     margin: 0 auto;
-    width: max(100px, 18vw);
+    width: 100%;
     height: auto;
     max-width: 1400px;
     align-item: center;
