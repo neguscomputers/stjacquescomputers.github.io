@@ -37,7 +37,7 @@ section {
 
 /* Logo styling */
 #logo {
-    display: flex;
+    display: block;
     margin: auto;
     width: 100%;
     height: auto;
@@ -52,7 +52,7 @@ section {
     width: 100%;
     height: auto;
     margin: auto;
-    max-width: 700px;
+    max-width: 500px;
     border-radius: 50%;
     flex-wrap: wrap;
 }
