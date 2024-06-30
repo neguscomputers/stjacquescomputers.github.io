@@ -1,33 +1,58 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', Arial, sans-serif;
     margin: 0;
     padding: 0;
+    color: #333;
+}
+
+.button {
+display: inline-block;
+padding: 10px 20px;
+color: #FAEB00;
+background-color: #F90000;
+border: none;
+border-radius: 5px;
+text-decoration: none;
+font-weight: bold;
+}
+
+.button:hover {
+background-color: #C70000;
 }
 
 header, nav {
     background-color: #F90000;
     color: #FAEB00;
     text-align: center;
-    padding: 50px 0;
+    padding: 20px 0;
 }
 
 nav ul, footer ul {
     list-style-type: none;
     padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
+    margin: 0 15px;
 }
 
 nav ul li a, footer ul li a {
-    color: #F7EA20;
+    color: #FAEB00;
     text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover, footer ul li a:hover {
+    text-decoration: underline;
 }
 
 main {
-    padding: 50px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 section {
@@ -41,32 +66,21 @@ section {
     margin: auto;
     width: 100%;
     height: auto;
-    max-width: 700px;
-    align-item: center;
-    flex-wrap: wrap;
-    
-    
+    max-width: 300px;
 }
 
 .profile-pic {
     width: 100%;
     height: auto;
-    margin: auto;
-    max-width: 500px;
+    margin: 20px auto;
+    max-width: 200px;
     border-radius: 50%;
-    flex-wrap: wrap;
 }
 
 /* Media Queries */
 @media only screen and (max-width: 700px) {
-    #logo, .logo {
+    #logo, .profile-pic {
         width: auto;
-        height: auto;
-        flex-wrap: wrap;
-    }
-    
-    .profile-pic {
-        max-width: 100%;
         height: auto;
     }
 }
@@ -74,11 +88,22 @@ section {
 hr {
     height: 3px;
     background-color: black;
-    border-color: black;
+    border: none;
+    margin: 20px 0;
 }
 
-hr1 {
-    background: #F90000;
-    margin: auto;
-    padding: auto;
+footer {
+    background-color: #F90000;
+    color: #FAEB00;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer ul {
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 10px;
 }
